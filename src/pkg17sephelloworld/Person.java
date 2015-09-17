@@ -5,8 +5,12 @@ import java.util.Date;
 public class Person {
     public final Date dateOfBirth;
     public int getAge(){
-        throw new RuntimeException("no implementado");
+        
+        int x = 123 / MILLISECONDS_PER_YEAR;
+        
+        //throw new RuntimeException("no implementado");
     }
+    private static final int MILLISECONDS_PER_YEAR = 1000*60*60*24*365;
             
     private final String firstName;
     private final  String familyName;
