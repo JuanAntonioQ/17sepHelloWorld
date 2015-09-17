@@ -5,7 +5,7 @@ public class Main {
     
     public static void main(String[] args) {
         Person yomismo;
-        yomismo = new Person("Perico", "de los Palotes");
+        yomismo = new Person("Perico", "de los Palotes",);
         //System.out.println("me llamo", yomismo.getFullName());
     }
     
