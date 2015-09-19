@@ -7,9 +7,10 @@ public class Person {
     public int getAge(){
         
         int x = 123 / MILLISECONDS_PER_YEAR;
-        
+        return x;
         //throw new RuntimeException("no implementado");
     }
+    
     private static final int MILLISECONDS_PER_YEAR = 1000*60*60*24*365;
             
     private final String firstName;
